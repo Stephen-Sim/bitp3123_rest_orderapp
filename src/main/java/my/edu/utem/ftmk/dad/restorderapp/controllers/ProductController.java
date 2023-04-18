@@ -7,7 +7,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import my.edu.utem.ftmk.dad.restorderapp.models.OrderType;
 import my.edu.utem.ftmk.dad.restorderapp.models.Product;
 import my.edu.utem.ftmk.dad.restorderapp.repos.ProductRepository;
 
