@@ -41,7 +41,7 @@ public class OrderTypeMenuController {
 		// Attach list to model as attribute
 		model.addAttribute("orderTypes", orderTypeList);
 		
-		return "ordertype";
+		return "ordertype/index";
 	}
 	
 	/**
@@ -99,7 +99,7 @@ public class OrderTypeMenuController {
 		model.addAttribute("orderType", orderType);
 		model.addAttribute("pageTitle", pageTitle);
 		
-		return "ordertypeinfo";
+		return "ordertype/ordertypeinfo";
 	}
 	
 	/**
